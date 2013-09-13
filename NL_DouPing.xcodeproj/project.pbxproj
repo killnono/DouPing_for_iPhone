@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF1AA01717E044A6006C8931 /* main_top_bg_large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1AA01617E044A6006C8931 /* main_top_bg_large@2x.png */; };
+		FF1AA01A17E04544006C8931 /* NLBaseResizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AA01917E04544006C8931 /* NLBaseResizeViewController.m */; };
 		FF9E910C17E010DA001874CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9E910B17E010DA001874CA /* UIKit.framework */; };
 		FF9E910E17E010DA001874CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9E910D17E010DA001874CA /* Foundation.framework */; };
 		FF9E911017E010DA001874CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9E910F17E010DA001874CA /* CoreGraphics.framework */; };
@@ -112,9 +114,14 @@
 		FF9E924517E01509001874CA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9E924417E01509001874CA /* SystemConfiguration.framework */; };
 		FF9E924717E01513001874CA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9E924617E01513001874CA /* MobileCoreServices.framework */; };
 		FF9E924917E0151A001874CA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9E924817E0151A001874CA /* CFNetwork.framework */; };
+		FFDBA89517E171CC0087AC81 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFDBA89417E171CC0087AC81 /* icon-60@2x.png */; };
+		FFDBA89717E171F90087AC81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDBA89617E171F90087AC81 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF1AA01617E044A6006C8931 /* main_top_bg_large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_top_bg_large@2x.png"; sourceTree = "<group>"; };
+		FF1AA01817E04544006C8931 /* NLBaseResizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLBaseResizeViewController.h; path = ../../../../../../nono/Documents/IOS/NL_DouPing/NL_DouPing/Sources/NLBaseResizeViewController.h; sourceTree = "<group>"; };
+		FF1AA01917E04544006C8931 /* NLBaseResizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLBaseResizeViewController.m; path = ../../../../../../nono/Documents/IOS/NL_DouPing/NL_DouPing/Sources/NLBaseResizeViewController.m; sourceTree = "<group>"; };
 		FF9E910817E010DA001874CA /* NL_DouPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NL_DouPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9E910B17E010DA001874CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FF9E910D17E010DA001874CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -306,6 +313,8 @@
 		FF9E924417E01509001874CA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FF9E924617E01513001874CA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		FF9E924817E0151A001874CA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FFDBA89417E171CC0087AC81 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		FFDBA89617E171F90087AC81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -376,6 +385,7 @@
 				FF9E91A417E01417001874CA /* Sources */,
 				FF9E918017E013A2001874CA /* resources */,
 				FF9E912817E01333001874CA /* plugin */,
+				FFDBA89617E171F90087AC81 /* Images.xcassets */,
 				FF9E911217E010DA001874CA /* Supporting Files */,
 			);
 			path = NL_DouPing;
@@ -527,8 +537,10 @@
 		FF9E918117E013A2001874CA /* images */ = {
 			isa = PBXGroup;
 			children = (
+				FF1AA01617E044A6006C8931 /* main_top_bg_large@2x.png */,
 				FF9E918217E013A2001874CA /* blackArrow.png */,
 				FF9E918317E013A2001874CA /* blackArrow@2x.png */,
+				FFDBA89417E171CC0087AC81 /* icon-60@2x.png */,
 				FF9E918417E013A2001874CA /* blueArrow.png */,
 				FF9E918517E013A2001874CA /* blueArrow@2x.png */,
 				FF9E918617E013A2001874CA /* Default-568h@2x.png */,
@@ -566,6 +578,8 @@
 				FF9E91F817E01418001874CA /* SearchObjectCell.xib */,
 				FF9E91FD17E01418001874CA /* TestView.xib */,
 				FF9E920217E01418001874CA /* View.xib */,
+				FF1AA01817E04544006C8931 /* NLBaseResizeViewController.h */,
+				FF1AA01917E04544006C8931 /* NLBaseResizeViewController.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -737,6 +751,7 @@
 				FF9E919617E013A2001874CA /* blueArrow@2x.png in Resources */,
 				FF9E919717E013A2001874CA /* Default-568h@2x.png in Resources */,
 				FF9E919817E013A2001874CA /* Default.png in Resources */,
+				FFDBA89517E171CC0087AC81 /* icon-60@2x.png in Resources */,
 				FF9E919917E013A2001874CA /* Default@2x.png in Resources */,
 				FF9E919A17E013A2001874CA /* grayArrow.png in Resources */,
 				FF9E919B17E013A2001874CA /* grayArrow@2x.png in Resources */,
@@ -746,8 +761,10 @@
 				FF9E919F17E013A2001874CA /* loading_bg.png in Resources */,
 				FF9E91A017E013A2001874CA /* loading_bg@2x.png in Resources */,
 				FF9E91A117E013A2001874CA /* mushroom.png in Resources */,
+				FFDBA89717E171F90087AC81 /* Images.xcassets in Resources */,
 				FF9E91A217E013A2001874CA /* whiteArrow.png in Resources */,
 				FF9E91A317E013A2001874CA /* whiteArrow@2x.png in Resources */,
+				FF1AA01717E044A6006C8931 /* main_top_bg_large@2x.png in Resources */,
 				FF9E922717E01418001874CA /* NLSearchObjectDetailViewController.xib in Resources */,
 				FF9E922917E01418001874CA /* NLSearchViewController.xib in Resources */,
 				FF9E922C17E01418001874CA /* SearchObjectCell.xib in Resources */,
@@ -789,6 +806,7 @@
 				FF9E920617E01418001874CA /* NLAppDelegate.m in Sources */,
 				FF9E920717E01418001874CA /* NLAuthorizationViewController.m in Sources */,
 				FF9E920817E01418001874CA /* NLBookInfo.m in Sources */,
+				FF1AA01A17E04544006C8931 /* NLBaseResizeViewController.m in Sources */,
 				FF9E920917E01418001874CA /* NLBookReview.m in Sources */,
 				FF9E920A17E01418001874CA /* NLCommonHelper.m in Sources */,
 				FF9E920B17E01418001874CA /* NLDouban.m in Sources */,
@@ -901,6 +919,7 @@
 		FF9E912617E010DB001874CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NL_DouPing/NL_DouPing-Prefix.pch";
 				INFOPLIST_FILE = "NL_DouPing/NL_DouPing-Info.plist";
@@ -917,6 +936,7 @@
 		FF9E912717E010DB001874CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NL_DouPing/NL_DouPing-Prefix.pch";
 				INFOPLIST_FILE = "NL_DouPing/NL_DouPing-Info.plist";
@@ -949,6 +969,7 @@
 				FF9E912717E010DB001874CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

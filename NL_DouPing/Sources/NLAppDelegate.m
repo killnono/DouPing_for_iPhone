@@ -69,7 +69,11 @@
     
     UINavigationController *navBar = [[UINavigationController alloc]initWithRootViewController:root];
     self.nav = navBar;
-    [nav.navigationBar setBarStyle:UIBarStyleBlackOpaque];
+//    [nav.navigationBar setBackgroundImage:[UIImage imageNamed:@"main_top_bg_large.png"] forBarMetrics:UIBarMetricsDefault];
+    if(!IOS7_OR_LATER){
+        [nav.navigationBar setBarStyle:UIBarStyleBlack];
+    
+    }
    
     nav.title = _appName;
     self.window.rootViewController = navBar;

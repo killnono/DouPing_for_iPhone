@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "NLDouban.h"
 #import "GADBannerViewDelegate.h"
-@interface NLReviewDetailViewController : UIViewController<UIWebViewDelegate,UIAlertViewDelegate,GADBannerViewDelegate>
+#import "NLBaseResizeViewController.h"
+@interface NLReviewDetailViewController : NLBaseResizeViewController<UIWebViewDelegate,UIAlertViewDelegate,GADBannerViewDelegate>
 
 {
     NSString *reviewId;

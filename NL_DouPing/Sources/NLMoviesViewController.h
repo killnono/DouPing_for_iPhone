@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface NLMoviesViewController : UIViewController
+#import "NLBaseResizeViewController.h"
+@interface NLMoviesViewController : NLBaseResizeViewController
 
 @end

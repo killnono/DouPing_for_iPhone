@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface NLHomeViewController : UIViewController
+#import "NLBaseResizeViewController.h"
+@interface NLHomeViewController : NLBaseResizeViewController
 
 @end

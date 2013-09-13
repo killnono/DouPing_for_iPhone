@@ -14,7 +14,7 @@
     UILabel * Time;//时间
     UILabel * who;//期次;
     UILabel *title;//
-    UILabel *content;
+    UITextView *content;
 }
 
 -(void)restAllView;
@@ -22,5 +22,5 @@
 @property(nonatomic,retain)UILabel * Time;
 @property(nonatomic,retain)UILabel * who;
 @property(nonatomic,retain)UILabel *title;
-@property(nonatomic,retain)UILabel *content;
+@property(nonatomic,retain)UITextView *content;
 @end

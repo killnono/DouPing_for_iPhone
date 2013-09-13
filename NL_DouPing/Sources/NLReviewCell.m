@@ -64,11 +64,12 @@
         [who release];
         
         
-        self.content = [[UILabel alloc]initWithFrame:CGRectMake(20, 95, 280, 85)];
+        self.content = [[UITextView alloc]initWithFrame:CGRectMake(20, 90, 280, 90)];
         content.backgroundColor = [UIColor clearColor];
-        content.font = [UIFont systemFontOfSize:12];
-        content.numberOfLines =0; //this is used to determine how many lines this label will have.if =3,it means this  label's text will show 3 lines.if =0 ,it means that this label's text will show the line whate it needs.no limit.
-        content.lineBreakMode = UILineBreakModeWordWrap;// sys will change the line by word.aslo can be by character  for another value. 
+        content.font = [UIFont systemFontOfSize:13];
+        content.editable=NO;
+//        content.numberOfLines =0; //this is used to determine how many lines this label will have.if =3,it means this  label's text will show 3 lines.if =0 ,it means that this label's text will show the line whate it needs.no limit.
+//        content.lineBreakMode = UILineBreakModeWordWrap;// sys will change the line by word.aslo can be by character  for another value.
         [self.contentView addSubview:content];
         [content release];
         

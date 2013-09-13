@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "NLDouban.h"
-@interface NLDouUViewController : UIViewController<NLDoubanRequestDelegate>
+#import "NLBaseResizeViewController.h"
+@interface NLDouUViewController : NLBaseResizeViewController<NLDoubanRequestDelegate>
 
 @end

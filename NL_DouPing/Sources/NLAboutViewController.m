@@ -77,40 +77,56 @@
     HUD.labelText = @"正在检查版本";
     HUD.delegate = self;
     [HUD show:YES];
-    NSString *version = @"";
-    NSURL *url = [NSURL URLWithString:@"http://itunes.apple.com/lookup?id=578878323"];
-    ASIFormDataRequest *versionRequest = [ASIFormDataRequest requestWithURL:url];
-    [versionRequest setRequestMethod:@"GET"];
-    [versionRequest setDelegate:self];
-    [versionRequest setTimeOutSeconds:150];
-    [versionRequest addRequestHeader:@"Content-Type" value:@"application/json"];
-    [versionRequest startSynchronous];
+   __block NSString *version = @"";
     
-    //Response string of our REST call
-    NSString* jsonResponseString = [versionRequest responseString];
-    NSDictionary *loginAuthenticationResponse = [jsonResponseString JSONValue];
-    
-    NSArray *configData = [loginAuthenticationResponse valueForKey:@"results"];
-    
-    [HUD hide:YES];
-    
-    for (id config in configData)
-    {
-        version = [config valueForKey:@"version"];
-    }
-    
-   NSString *lVersions = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"];
-    
-    //Check your version with the version in app store
-    if (![version isEqualToString:lVersions] && ![version isEqualToString:@""])
-    {
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        NSURL *url = [NSURL URLWithString:@"http://itunes.apple.com/lookup?id=578878323"];
+        ASIFormDataRequest *versionRequest = [ASIFormDataRequest requestWithURL:url];
+        [versionRequest setRequestMethod:@"GET"];
+        [versionRequest setDelegate:self];
+        [versionRequest setTimeOutSeconds:10];
+        [versionRequest addRequestHeader:@"Content-Type" value:@"application/json"];
+        [versionRequest startSynchronous];
         
-        UIAlertView *A = [[UIAlertView alloc] initWithTitle:@"更新提示" message:@"当前应用检查到新的版本，是否立刻升级" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"升级", nil];
-        A.tag = 100;
-        [A show];
-        [A release];
-    }
-}
+        //Response string of our REST call
+        NSString* jsonResponseString = [versionRequest responseString];
+        NSDictionary *loginAuthenticationResponse = [jsonResponseString JSONValue];
+        
+        NSArray *configData = [loginAuthenticationResponse valueForKey:@"results"];
+        
+        for (id config in configData)
+        {
+            version = [config valueForKey:@"version"];
+        }
+        //CFBundleShortVersionString（外部版本号）  CFBundleVersion(内部版本号)
+        NSString *lVersions = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [HUD hide:YES];
+            //Check your version with the version in app store
+            if (![version isEqualToString:lVersions] && ![version isEqualToString:@""])
+            {
+                
+                UIAlertView *A = [[UIAlertView alloc] initWithTitle:@"更新提示" message:@"当前应用检查到新的版本，是否立刻升级" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"升级", nil];
+                A.tag = 100;
+                [A show];
+                [A release];
+            }else{
+                
+                UIAlertView *A = [[UIAlertView alloc] initWithTitle:@"更新提示" message:@"已经是最新版本" delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil];
+                A.tag = 101;
+                [A show];
+                [A release];
+                
+            }
+            
+
+        });
+        
+        
+    });
+    
+  }
 
 -(void)viewiTunesStoreUpdate
 {
@@ -262,6 +278,9 @@
                 }
                     
                 case 1:
+                    
+                    
+                    
                     [self checkVersion];
                     break;
                 case 2:
@@ -277,7 +296,7 @@
             switch (indexPath.row) {
                 case 0://关于我
                 {
-                    UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"关于我" message:@"宅生梦死,生平不详." delegate:self cancelButtonTitle:@"确定" otherButtonTitles: nil];
+                    UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"关于我" message:@"暂无简介" delegate:self cancelButtonTitle:@"确定" otherButtonTitles: nil];
                     [a show];
                     [a release];
 

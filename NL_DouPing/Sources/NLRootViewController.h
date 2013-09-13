@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "NLAppDelegate.h"
 #import "GradientButton.h"
-@interface NLRootViewController : UIViewController
+#import "NLBaseResizeViewController.h"
+
+@interface NLRootViewController : NLBaseResizeViewController
 
 {
     NLAppDelegate *_delegate;

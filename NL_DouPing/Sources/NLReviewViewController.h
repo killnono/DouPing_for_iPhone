@@ -11,7 +11,8 @@
 #import "NLDouban.h"
 #import "MBProgressHUD.h"
 #import "GADBannerViewDelegate.h"
-@interface NLReviewViewController : UIViewController<SlidingTabsControlDelegate,UITableViewDelegate,UITableViewDataSource,NLDoubanRequestDelegate,NSXMLParserDelegate,MBProgressHUDDelegate,GADBannerViewDelegate>
+#import "NLBaseResizeViewController.h"
+@interface NLReviewViewController : NLBaseResizeViewController<SlidingTabsControlDelegate,UITableViewDelegate,UITableViewDataSource,NLDoubanRequestDelegate,NSXMLParserDelegate,MBProgressHUDDelegate,GADBannerViewDelegate>
 {
     NSString *currentTAG;
     MBProgressHUD *HUD;

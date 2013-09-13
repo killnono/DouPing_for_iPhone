@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "NLDouban.h"
 #import "MBProgressHUD.h"
-@interface NLSearchObjectDetailViewController : UIViewController<NLDoubanRequestDelegate,MBProgressHUDDelegate>
+#import "NLBaseResizeViewController.h"
+@interface NLSearchObjectDetailViewController : NLBaseResizeViewController<NLDoubanRequestDelegate,MBProgressHUDDelegate>
 @property (retain, nonatomic) IBOutlet UILabel *titleLa;
 @property (retain, nonatomic) IBOutlet UIImageView *imageV;
 @property (retain, nonatomic) IBOutlet UIActivityIndicatorView *imageACV;

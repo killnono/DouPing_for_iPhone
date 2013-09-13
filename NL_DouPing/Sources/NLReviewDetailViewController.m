@@ -94,8 +94,11 @@
     
     
     //工具栏
-    self.toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0,iPhone5?(416+88):416, 320, 44)];
-    [toolbar setBarStyle:UIBarStyleBlackOpaque];
+
+     self.toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0,self.view.frame.size.height-44, 320, 44)];
+    if(!IOS7_OR_LATER){
+       [toolbar setBarStyle:UIBarStyleBlackOpaque];
+    }
     toolbar.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
     [self.view addSubview:toolbar];
     [toolbar release];

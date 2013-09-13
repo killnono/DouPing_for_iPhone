@@ -11,8 +11,9 @@
 #import "NLDouban.h"
 #import "EGORefreshTableHeaderView.h"
 #import "MBProgressHUD.h"
+#import "NLBaseResizeViewController.h"
 @class NLFriendsShuoShuoData;
-@interface NLMyHomeViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,NLDoubanRequestDelegate,EGORefreshTableHeaderDelegate,MBProgressHUDDelegate,UIAlertViewDelegate>
+@interface NLMyHomeViewController : NLBaseResizeViewController<UITableViewDelegate,UITableViewDataSource,NLDoubanRequestDelegate,EGORefreshTableHeaderDelegate,MBProgressHUDDelegate,UIAlertViewDelegate>
 {
     UITableView *tabV;
     NLUserInfoView *contentView;

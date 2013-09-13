@@ -10,7 +10,8 @@
 #import "NLAppDelegate.h"
 #import "MBProgressHUD.h"
 #import "NLDouban.h"
-@interface NLAuthorizationViewController : UIViewController<UIWebViewDelegate,MBProgressHUDDelegate,NLDoubanRequestDelegate,UIAlertViewDelegate>
+#import "NLBaseResizeViewController.h"
+@interface NLAuthorizationViewController : NLBaseResizeViewController<UIWebViewDelegate,MBProgressHUDDelegate,NLDoubanRequestDelegate,UIAlertViewDelegate>
 
 {
     NLAppDelegate *_delegate;

@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "MBProgressHUD.h"
-@interface NLAboutViewController : UIViewController<UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate,MBProgressHUDDelegate>
+#import "NLBaseResizeViewController.h"
+@interface NLAboutViewController : NLBaseResizeViewController<UITableViewDelegate,UITableViewDataSource,UIAlertViewDelegate,MBProgressHUDDelegate>
 {
     UITableView *_tabV;
 }

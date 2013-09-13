@@ -10,7 +10,8 @@
 #import "NLDouban.h"
 #import "MBProgressHUD.h"
 #import "NLFriendShareInfo.h"
-@interface NLSearchViewController : UIViewController<UISearchBarDelegate,NLDoubanRequestDelegate,UITableViewDelegate,UITableViewDataSource,MBProgressHUDDelegate>
+#import "NLBaseResizeViewController.h"
+@interface NLSearchViewController : NLBaseResizeViewController<UISearchBarDelegate,NLDoubanRequestDelegate,UITableViewDelegate,UITableViewDataSource,MBProgressHUDDelegate>
 
 
 @property (retain, nonatomic) IBOutlet UISegmentedControl *seg;

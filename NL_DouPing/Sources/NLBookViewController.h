@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface NLBookViewController : UIViewController
+#import "NLBaseResizeViewController.h"
+@interface NLBookViewController : NLBaseResizeViewController
 
 @end

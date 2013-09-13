@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5543F0C9-DC0B-4F9D-A9F5-EC7DA84FE493</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NL_DouPing</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EF373BC3-D624-4963-A6FE-F8F96DF78D80</key>
+		<string>https://github.com/killnono/NL_DouPing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NL_DouPing.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EF373BC3-D624-4963-A6FE-F8F96DF78D80</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/killnono/NL_DouPing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EF373BC3-D624-4963-A6FE-F8F96DF78D80</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EF373BC3-D624-4963-A6FE-F8F96DF78D80</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NL_DouPing</string>
+		</dict>
+	</array>
+</dict>
+</plist>

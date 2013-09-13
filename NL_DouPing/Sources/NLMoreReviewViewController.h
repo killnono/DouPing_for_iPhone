@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "MBProgressHUD.h"
 #import "NLDouban.h"
-@interface NLMoreReviewViewController : UIViewController<NLDoubanRequestDelegate,UITableViewDelegate,UITableViewDataSource,NLDoubanRequestDelegate,NSXMLParserDelegate,MBProgressHUDDelegate,UIAlertViewDelegate>
+#import "NLBaseResizeViewController.h"
+@interface NLMoreReviewViewController : NLBaseResizeViewController<NLDoubanRequestDelegate,UITableViewDelegate,UITableViewDataSource,NLDoubanRequestDelegate,NSXMLParserDelegate,MBProgressHUDDelegate,UIAlertViewDelegate>
 {
     MBProgressHUD *HUD;
     

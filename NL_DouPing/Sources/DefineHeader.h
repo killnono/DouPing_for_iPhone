@@ -15,6 +15,10 @@
 
 #define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 
+//是否是ios7以后的系统
+#define IOS7_OR_LATER (([[[UIDevice currentDevice] systemVersion] floatValue] >=7.0) ? YES:NO)
+
+
 
 //release屏蔽NSLog
 //放在.pch文件里
