@@ -87,7 +87,7 @@
     tabV = tv;
     [self.view addSubview:tabV];
     
-    [self addAdmob];
+//    [self addAdmob];
     
     
     

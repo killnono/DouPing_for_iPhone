@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FF1AA01717E044A6006C8931 /* main_top_bg_large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1AA01617E044A6006C8931 /* main_top_bg_large@2x.png */; };
 		FF1AA01A17E04544006C8931 /* NLBaseResizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1AA01917E04544006C8931 /* NLBaseResizeViewController.m */; };
+		FF52D4531803B33600402D15 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FF52D4521803B33600402D15 /* Default.png */; };
+		FF52D4551803B3A500402D15 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF52D4541803B3A500402D15 /* Images-2.xcassets */; };
 		FF9E910C17E010DA001874CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9E910B17E010DA001874CA /* UIKit.framework */; };
 		FF9E910E17E010DA001874CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9E910D17E010DA001874CA /* Foundation.framework */; };
 		FF9E911017E010DA001874CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9E910F17E010DA001874CA /* CoreGraphics.framework */; };
@@ -44,7 +46,6 @@
 		FF9E919517E013A2001874CA /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9E918417E013A2001874CA /* blueArrow.png */; };
 		FF9E919617E013A2001874CA /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9E918517E013A2001874CA /* blueArrow@2x.png */; };
 		FF9E919717E013A2001874CA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9E918617E013A2001874CA /* Default-568h@2x.png */; };
-		FF9E919817E013A2001874CA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9E918717E013A2001874CA /* Default.png */; };
 		FF9E919917E013A2001874CA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9E918817E013A2001874CA /* Default@2x.png */; };
 		FF9E919A17E013A2001874CA /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9E918917E013A2001874CA /* grayArrow.png */; };
 		FF9E919B17E013A2001874CA /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF9E918A17E013A2001874CA /* grayArrow@2x.png */; };
@@ -122,6 +123,8 @@
 		FF1AA01617E044A6006C8931 /* main_top_bg_large@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_top_bg_large@2x.png"; sourceTree = "<group>"; };
 		FF1AA01817E04544006C8931 /* NLBaseResizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLBaseResizeViewController.h; path = ../../../../../../nono/Documents/IOS/NL_DouPing/NL_DouPing/Sources/NLBaseResizeViewController.h; sourceTree = "<group>"; };
 		FF1AA01917E04544006C8931 /* NLBaseResizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLBaseResizeViewController.m; path = ../../../../../../nono/Documents/IOS/NL_DouPing/NL_DouPing/Sources/NLBaseResizeViewController.m; sourceTree = "<group>"; };
+		FF52D4521803B33600402D15 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FF52D4541803B3A500402D15 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		FF9E910817E010DA001874CA /* NL_DouPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NL_DouPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9E910B17E010DA001874CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FF9E910D17E010DA001874CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -196,7 +199,6 @@
 		FF9E918417E013A2001874CA /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
 		FF9E918517E013A2001874CA /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
 		FF9E918617E013A2001874CA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		FF9E918717E013A2001874CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FF9E918817E013A2001874CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FF9E918917E013A2001874CA /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
 		FF9E918A17E013A2001874CA /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
@@ -386,6 +388,7 @@
 				FF9E918017E013A2001874CA /* resources */,
 				FF9E912817E01333001874CA /* plugin */,
 				FFDBA89617E171F90087AC81 /* Images.xcassets */,
+				FF52D4541803B3A500402D15 /* Images-2.xcassets */,
 				FF9E911217E010DA001874CA /* Supporting Files */,
 			);
 			path = NL_DouPing;
@@ -537,6 +540,7 @@
 		FF9E918117E013A2001874CA /* images */ = {
 			isa = PBXGroup;
 			children = (
+				FF52D4521803B33600402D15 /* Default.png */,
 				FF1AA01617E044A6006C8931 /* main_top_bg_large@2x.png */,
 				FF9E918217E013A2001874CA /* blackArrow.png */,
 				FF9E918317E013A2001874CA /* blackArrow@2x.png */,
@@ -544,7 +548,6 @@
 				FF9E918417E013A2001874CA /* blueArrow.png */,
 				FF9E918517E013A2001874CA /* blueArrow@2x.png */,
 				FF9E918617E013A2001874CA /* Default-568h@2x.png */,
-				FF9E918717E013A2001874CA /* Default.png */,
 				FF9E918817E013A2001874CA /* Default@2x.png */,
 				FF9E918917E013A2001874CA /* grayArrow.png */,
 				FF9E918A17E013A2001874CA /* grayArrow@2x.png */,
@@ -717,6 +720,11 @@
 				CLASSPREFIX = NL;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Nono;
+				TargetAttributes = {
+					FF9E910717E010DA001874CA = {
+						DevelopmentTeam = 6P8R2U2JAZ;
+					};
+				};
 			};
 			buildConfigurationList = FF9E910317E010DA001874CA /* Build configuration list for PBXProject "NL_DouPing" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -750,7 +758,6 @@
 				FF9E919517E013A2001874CA /* blueArrow.png in Resources */,
 				FF9E919617E013A2001874CA /* blueArrow@2x.png in Resources */,
 				FF9E919717E013A2001874CA /* Default-568h@2x.png in Resources */,
-				FF9E919817E013A2001874CA /* Default.png in Resources */,
 				FFDBA89517E171CC0087AC81 /* icon-60@2x.png in Resources */,
 				FF9E919917E013A2001874CA /* Default@2x.png in Resources */,
 				FF9E919A17E013A2001874CA /* grayArrow.png in Resources */,
@@ -760,9 +767,11 @@
 				FF9E919E17E013A2001874CA /* loading80*120.png in Resources */,
 				FF9E919F17E013A2001874CA /* loading_bg.png in Resources */,
 				FF9E91A017E013A2001874CA /* loading_bg@2x.png in Resources */,
+				FF52D4531803B33600402D15 /* Default.png in Resources */,
 				FF9E91A117E013A2001874CA /* mushroom.png in Resources */,
 				FFDBA89717E171F90087AC81 /* Images.xcassets in Resources */,
 				FF9E91A217E013A2001874CA /* whiteArrow.png in Resources */,
+				FF52D4551803B3A500402D15 /* Images-2.xcassets in Resources */,
 				FF9E91A317E013A2001874CA /* whiteArrow@2x.png in Resources */,
 				FF1AA01717E044A6006C8931 /* main_top_bg_large@2x.png in Resources */,
 				FF9E922717E01418001874CA /* NLSearchObjectDetailViewController.xib in Resources */,
@@ -919,16 +928,21 @@
 		FF9E912617E010DB001874CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: yanan zhu (6P8R2U2JAZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NL_DouPing/NL_DouPing-Prefix.pch";
 				INFOPLIST_FILE = "NL_DouPing/NL_DouPing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/NL_DouPing/plugin/admob\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E470CF20-5BC2-4B9C-920B-72F9A6ACAEFA";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -936,16 +950,21 @@
 		FF9E912717E010DB001874CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: yanan zhu (6P8R2U2JAZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NL_DouPing/NL_DouPing-Prefix.pch";
 				INFOPLIST_FILE = "NL_DouPing/NL_DouPing-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/NL_DouPing/plugin/admob\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E470CF20-5BC2-4B9C-920B-72F9A6ACAEFA";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

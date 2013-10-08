@@ -90,7 +90,8 @@
     cpLa.numberOfLines = 0;
     cpLa.text = [NSString stringWithFormat:@"%@",@"Copyright (c) 2012年 NonoWithLilith. All rights reserved."];
 
-    [self addAdmob];
+    //去广告
+//    [self addAdmob];
     
     [self.view addSubview:cpLa];
     [cpLa release];

@@ -128,7 +128,7 @@
     [self.navigationController.navigationBar addSubview:activityView];
     
     [activityView release];
-    [self addAdmob];
+//    [self addAdmob];
     
     
    // toolbar 
